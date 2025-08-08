@@ -1,4 +1,11 @@
 
+// 2 Aug 2025
+/**
+ *  Lab Activity 2
+ * Write a prime system 
+ * - Input : number 
+ * - Output : prime,Resverse
+ */
 import java.util.Scanner;
 
 public class NumberOperators {

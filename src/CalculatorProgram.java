@@ -1,4 +1,5 @@
-/**
+/**  
+ * Lab Activity 2
  * Write a calculator program with 
  * - Add(),subtract(),multiply(),divide() methods
  * - Main method to display a menu and call the methods based on user input
