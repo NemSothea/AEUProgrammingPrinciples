@@ -8,10 +8,10 @@
 import java.util.Scanner;
 public class CalculatorProgram {
 public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        boolean running = true;
+    Scanner scanner = new Scanner(System.in);
+    boolean running = true;
 
-        while (running){
+    while (running){
             displayMenu();
             int choice = getMenuChoice(scanner);
             // Exist option
