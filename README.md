@@ -17,6 +17,11 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 #### 2025-08-09 Program concepts Vs Programming Principles
 
+-> Lab activity Contact Manger 
+- Use HashMap<String,String> for Name -> Phone 
+- Add, Search, Remove, And Display contacts 
+- Use lambda with forEach for display 
+- Principle tie-in : Each Feature in its own method(modularity)
 
 ## Dependency Management
 
