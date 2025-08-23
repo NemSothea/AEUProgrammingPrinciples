@@ -27,8 +27,8 @@ public class EmployeeManagementSystem {
         Employee[] employees = {
                 new Manager("Pisey", 12, 2000),
                 new Developer("Sothea", 13, 1200),
-                new Salesperson("Seyha", 16, 13000),
-                new Manager("Srey Nich", 20, 1500)
+                new Salesperson("Seyha", 16, 1300),
+                new Manager("Srey Nich", 20, 2000)
         };
 
         System.out.println("Employee Management System");
