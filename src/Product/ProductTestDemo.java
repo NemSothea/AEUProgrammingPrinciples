@@ -1,3 +1,4 @@
+package Product;
 /*16-08-2025: Lab Activity 
 ## Create a Product Class
 - Private fields: name, price, quantity
@@ -10,6 +11,7 @@
  * Test class to demonstrate the Product class
  * 
 */
+
 public class ProductTestDemo {
     public static void main(String[] args) {
         // Create 3 product objects

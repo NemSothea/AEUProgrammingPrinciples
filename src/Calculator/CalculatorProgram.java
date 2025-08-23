@@ -1,3 +1,4 @@
+package Calculator;
 /**  
  * Lab Activity 2
  * Write a calculator program with 

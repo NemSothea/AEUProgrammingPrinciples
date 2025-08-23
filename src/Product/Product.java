@@ -1,3 +1,4 @@
+package Product;
 /*16-08-2025: Lab Activity 
 ## Create a Product Class
 - Private fields: name, price, quantity

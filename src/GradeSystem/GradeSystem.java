@@ -1,3 +1,4 @@
+package GradeSystem;
 
 // 2 Aug 2025
 // Lab Activity 1

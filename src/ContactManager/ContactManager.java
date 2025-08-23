@@ -1,3 +1,4 @@
+package ContactManager;
 
 /**
  * Lab activity Contact Manger 

@@ -1,3 +1,19 @@
+/* 2025-08-09 Saturday
+ * # Assignment – Word Frequency Counter
+
+- Create a comprehensive word frequency analyzer that demonstrates multiple programming principles and data structures.
+
+## Core Requirements:
+- Input: Accept either user input or read from a text file
+- Processing: Count word frequency ignoring case and punctuation
+- Output: Display results in multiple formats
+- Data Structures: Use HashMap for frequency counting, ArrayList for sorting
+- Lambda Usage: Implement filtering and sorting using Lambda expressions
+- Reflection: How do principles like DRY and clarity improve your design?
+ */
+
+package WordFrequencyCounter;
+
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
