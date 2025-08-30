@@ -1,0 +1,391 @@
+[2025-08-30 10:16:08] INFO: Starting student grade management system
+[2025-08-30 10:16:08] INFO: Grade management system initialized
+[2025-08-30 10:16:08] INFO: Attempting to read from file: students.csv
+[2025-08-30 10:16:08] ERROR: File not found error - CSV file 'students.csv' not found
+[2025-08-30 10:16:08] ERROR: Critical error in main method - File not found: CSV file 'students.csv' not found
+[2025-08-30 10:18:16] INFO: Starting student grade management system
+[2025-08-30 10:18:16] INFO: Grade management system initialized
+[2025-08-30 10:18:16] INFO: Attempting to read from file: students.csv
+[2025-08-30 10:18:16] ERROR: File not found error - CSV file 'students.csv' not found
+[2025-08-30 10:18:16] ERROR: Critical error in main method - File not found: CSV file 'students.csv' not found
+[2025-08-30 10:23:04] INFO: Starting student grade management system
+[2025-08-30 10:23:04] INFO: Grade management system initialized
+[2025-08-30 10:23:04] INFO: Attempting to read from file: students.csv
+[2025-08-30 10:23:04] ERROR: File not found error - CSV file 'students.csv' not found
+[2025-08-30 10:23:04] ERROR: Critical error in main method - File not found: CSV file 'students.csv' not found
+[2025-08-30 10:23:26] INFO: Starting student grade management system
+[2025-08-30 10:23:26] INFO: Grade management system initialized
+[2025-08-30 10:23:26] INFO: Attempting to read from file: students.csv
+[2025-08-30 10:23:26] ERROR: File not found error - CSV file 'students.csv' not found
+[2025-08-30 10:23:26] ERROR: Critical error in main method - File not found: CSV file 'students.csv' not found
+[2025-08-30 10:23:41] INFO: Starting student grade management system
+[2025-08-30 10:23:41] INFO: Grade management system initialized
+[2025-08-30 10:23:41] INFO: Attempting to read from file: students.csv
+[2025-08-30 10:23:41] ERROR: File not found error - CSV file 'students.csv' not found
+[2025-08-30 10:23:41] ERROR: Critical error in main method - File not found: CSV file 'students.csv' not found
+[2025-08-30 10:24:46] INFO: Starting student grade management system
+[2025-08-30 10:24:46] INFO: Grade management system initialized
+[2025-08-30 10:24:46] INFO: Attempting to read from file: students.csv
+[2025-08-30 10:24:46] ERROR: File not found error - CSV file 'students.csv' not found
+[2025-08-30 10:24:46] ERROR: Critical error in main method - File not found: CSV file 'students.csv' not found
+[2025-08-30 10:24:57] INFO: Starting student grade management system
+[2025-08-30 10:24:57] INFO: Grade management system initialized
+[2025-08-30 10:24:57] INFO: Attempting to read from file: students.csv
+[2025-08-30 10:24:57] ERROR: File not found error - CSV file 'students.csv' not found
+[2025-08-30 10:24:57] ERROR: Critical error in main method - File not found: CSV file 'students.csv' not found
+[2025-08-30 10:26:07] INFO: Starting student grade management system
+[2025-08-30 10:26:07] INFO: Grade management system initialized
+[2025-08-30 10:26:07] INFO: Attempting to read from file: students.csv
+[2025-08-30 10:26:07] ERROR: File not found error - CSV file 'students.csv' not found
+[2025-08-30 10:26:07] ERROR: Critical error in main method - File not found: CSV file 'students.csv' not found
+[2025-08-30 10:26:28] INFO: Starting student grade management system
+[2025-08-30 10:26:43] INFO: Grade management system initialized
+[2025-08-30 10:29:13] INFO: Attempting to read from file: students.csv
+[2025-08-30 10:32:05] INFO: Starting student grade management system
+[2025-08-30 10:32:05] INFO: Grade management system initialized
+[2025-08-30 10:32:05] INFO: Attempting to read from file: students.csv
+[2025-08-30 10:32:05] ERROR: File not found error - CSV file 'students.csv' not found
+[2025-08-30 10:32:05] ERROR: Critical error in main method - File not found: CSV file 'students.csv' not found
+[2025-08-30 10:32:23] INFO: Starting student grade management system
+[2025-08-30 10:32:33] INFO: Grade management system initialized
+[2025-08-30 10:32:40] INFO: Attempting to read from file: students.csv
+[2025-08-30 14:22:00] INFO: Starting student grade management system
+[2025-08-30 14:22:00] INFO: Grade management system initialized
+[2025-08-30 14:22:00] INFO: Attempting to read from file: students.csv
+[2025-08-30 14:22:00] ERROR: File not found error - CSV file 'students.csv' not found
+[2025-08-30 14:22:00] ERROR: Critical error in main method - File not found: CSV file 'students.csv' not found
+[2025-08-30 14:26:33] INFO: Starting student grade management system
+[2025-08-30 14:26:45] INFO: Grade management system initialized
+[2025-08-30 14:27:16] INFO: Attempting to read from file: students.csv
+[2025-08-30 14:33:15] INFO: Starting student grade management system
+[2025-08-30 14:33:23] INFO: Grade management system initialized
+[2025-08-30 14:33:31] INFO: Attempting to read from file: students.csv
+[2025-08-30 14:33:40] INFO: File object created: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 14:35:31] INFO: Starting student grade management system
+[2025-08-30 14:35:31] INFO: Grade management system initialized
+[2025-08-30 14:35:31] INFO: Attempting to read from file: students.csv
+[2025-08-30 14:35:31] INFO: File object created: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 14:35:31] INFO: File does not exist at: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 14:35:31] INFO: Current directory: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/.
+[2025-08-30 14:35:31] INFO: Files in current directory:
+[2025-08-30 14:35:31] INFO:   - .DS_Store (file)
+[2025-08-30 14:35:31] INFO:   - mvnw.cmd (file)
+[2025-08-30 14:35:31] INFO:   - target (directory)
+[2025-08-30 14:35:31] INFO:   - pom.xml (file)
+[2025-08-30 14:35:31] INFO:   - HELP.md (file)
+[2025-08-30 14:35:31] INFO:   - README.md (file)
+[2025-08-30 14:35:31] INFO:   - .gitignore (file)
+[2025-08-30 14:35:31] INFO:   - .mvn (directory)
+[2025-08-30 14:35:31] INFO:   - .gitattributes (file)
+[2025-08-30 14:35:31] INFO:   - .git (directory)
+[2025-08-30 14:35:31] INFO:   - .vscode (directory)
+[2025-08-30 14:35:31] INFO:   - mvnw (file)
+[2025-08-30 14:35:31] INFO:   - grade_management.log (file)
+[2025-08-30 14:35:31] INFO:   - src (directory)
+[2025-08-30 14:35:31] ERROR: File not found error - CSV file 'students.csv' not found at: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 14:35:31] ERROR: Critical error in main method - File not found: CSV file 'students.csv' not found at: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 14:36:09] INFO: Starting student grade management system
+[2025-08-30 14:36:14] INFO: Grade management system initialized
+[2025-08-30 14:36:18] INFO: Attempting to read from file: students.csv
+[2025-08-30 14:36:22] INFO: File object created: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 14:36:30] INFO: File does not exist at: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 14:36:49] INFO: Current directory: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/.
+[2025-08-30 14:36:50] INFO: Files in current directory:
+[2025-08-30 14:36:57] INFO:   - .DS_Store (file)
+[2025-08-30 14:36:59] INFO:   - mvnw.cmd (file)
+[2025-08-30 14:37:02] INFO:   - target (directory)
+[2025-08-30 14:37:04] INFO:   - pom.xml (file)
+[2025-08-30 14:37:06] INFO:   - HELP.md (file)
+[2025-08-30 14:37:08] INFO:   - README.md (file)
+[2025-08-30 14:37:09] INFO:   - .gitignore (file)
+[2025-08-30 14:37:10] INFO:   - .mvn (directory)
+[2025-08-30 14:37:10] INFO:   - .gitattributes (file)
+[2025-08-30 14:37:11] INFO:   - .git (directory)
+[2025-08-30 14:37:12] INFO:   - .vscode (directory)
+[2025-08-30 14:37:13] INFO:   - mvnw (file)
+[2025-08-30 14:37:14] INFO:   - grade_management.log (file)
+[2025-08-30 14:37:21] INFO:   - src (directory)
+[2025-08-30 14:37:21] ERROR: File not found error - CSV file 'students.csv' not found at: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 14:44:01] INFO: Starting student grade management system
+[2025-08-30 14:44:01] INFO: Grade management system initialized
+[2025-08-30 14:44:01] INFO: Attempting to read from file: students.csv
+[2025-08-30 14:44:01] INFO: File object created: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 14:44:01] INFO: File not found. Creating sample CSV file...
+[2025-08-30 14:44:01] INFO: Creating sample CSV file: students.csv
+[2025-08-30 14:44:01] INFO: Sample CSV file created successfully
+[2025-08-30 14:44:01] INFO: Sample CSV file created successfully
+[2025-08-30 14:44:01] INFO: Reading file content...
+[2025-08-30 14:44:01] INFO: File size: 228 bytes
+[2025-08-30 14:44:01] INFO: First line: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 14:44:01] INFO: Processing line 2: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 14:44:01] INFO: Skipping header line
+[2025-08-30 14:44:01] INFO: Processing line 3: S001,John Doe,85.5,92.0,78.5,88.0
+[2025-08-30 14:44:01] INFO: Successfully processed student: S001
+[2025-08-30 14:44:01] INFO: Processing line 4: S002,Jane Smith,91.0,89.5,94.0,87.5
+[2025-08-30 14:44:01] INFO: Successfully processed student: S002
+[2025-08-30 14:44:01] INFO: Processing line 5: S003,Bob Johnson,76.0,82.5,79.0,85.0
+[2025-08-30 14:44:01] INFO: Successfully processed student: S003
+[2025-08-30 14:44:01] INFO: Processing line 6: S004,Alice Brown,88.0,92.5,95.0,90.5
+[2025-08-30 14:44:01] INFO: Successfully processed student: S004
+[2025-08-30 14:44:01] INFO: Processing line 7: S005,Charlie Wilson,65.0,72.5,68.0,70.0
+[2025-08-30 14:44:01] INFO: Successfully processed student: S005
+[2025-08-30 14:44:01] INFO: Successfully read 5 student records
+[2025-08-30 14:44:01] INFO: Calculating averages for all students
+[2025-08-30 14:44:01] INFO: Average for John Doe: 86.00
+[2025-08-30 14:44:01] INFO: Average for Jane Smith: 90.50
+[2025-08-30 14:44:01] INFO: Average for Bob Johnson: 80.63
+[2025-08-30 14:44:01] INFO: Average for Alice Brown: 91.50
+[2025-08-30 14:44:01] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 14:44:01] INFO: Writing results to file: results.txt
+[2025-08-30 14:44:01] INFO: Successfully wrote results to results.txt
+[2025-08-30 14:44:01] INFO: Grade management process completed successfully
+[2025-08-30 14:45:26] INFO: Starting student grade management system
+[2025-08-30 14:45:26] INFO: Grade management system initialized
+[2025-08-30 14:45:26] INFO: Attempting to read from file: students.csv
+[2025-08-30 14:45:26] INFO: File object created: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 14:45:26] INFO: Reading file content...
+[2025-08-30 14:45:26] INFO: File size: 228 bytes
+[2025-08-30 14:45:26] INFO: First line: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 14:45:26] INFO: Processing line 2: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 14:45:26] INFO: Skipping header line
+[2025-08-30 14:45:26] INFO: Processing line 3: S001,John Doe,85.5,92.0,78.5,88.0
+[2025-08-30 14:45:26] INFO: Successfully processed student: S001
+[2025-08-30 14:45:26] INFO: Processing line 4: S002,Jane Smith,91.0,89.5,94.0,87.5
+[2025-08-30 14:45:26] INFO: Successfully processed student: S002
+[2025-08-30 14:45:26] INFO: Processing line 5: S003,Bob Johnson,76.0,82.5,79.0,85.0
+[2025-08-30 14:45:26] INFO: Successfully processed student: S003
+[2025-08-30 14:45:26] INFO: Processing line 6: S004,Alice Brown,88.0,92.5,95.0,90.5
+[2025-08-30 14:45:26] INFO: Successfully processed student: S004
+[2025-08-30 14:45:26] INFO: Processing line 7: S005,Charlie Wilson,65.0,72.5,68.0,70.0
+[2025-08-30 14:45:26] INFO: Successfully processed student: S005
+[2025-08-30 14:45:26] INFO: Successfully read 5 student records
+[2025-08-30 14:45:26] INFO: Calculating averages for all students
+[2025-08-30 14:45:26] INFO: Average for John Doe: 86.00
+[2025-08-30 14:45:26] INFO: Average for Jane Smith: 90.50
+[2025-08-30 14:45:26] INFO: Average for Bob Johnson: 80.63
+[2025-08-30 14:45:26] INFO: Average for Alice Brown: 91.50
+[2025-08-30 14:45:26] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 14:45:26] INFO: Writing results to file: results.txt
+[2025-08-30 14:45:26] INFO: Successfully wrote results to results.txt
+[2025-08-30 14:45:26] INFO: Grade management process completed successfully
+[2025-08-30 14:56:49] INFO: Starting student grade management system
+[2025-08-30 14:56:53] INFO: Grade management system initialized
+[2025-08-30 14:56:57] INFO: Attempting to read from file: students.csv
+[2025-08-30 14:56:59] INFO: File object created: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 14:57:33] INFO: Starting student grade management system
+[2025-08-30 14:57:37] INFO: Grade management system initialized
+[2025-08-30 14:57:40] INFO: Reading from file: students.csv
+[2025-08-30 14:57:40] INFO: Successfully read 5 students from CSV
+[2025-08-30 14:57:47] INFO: Calculating averages for all students
+[2025-08-30 14:57:47] INFO: Average for John Doe: 86.00
+[2025-08-30 14:57:47] INFO: Average for Jane Smith: 90.50
+[2025-08-30 14:57:47] INFO: Average for Bob Johnson: 80.63
+[2025-08-30 14:57:47] INFO: Average for Alice Brown: 91.50
+[2025-08-30 14:57:47] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 14:57:48] INFO: Writing results to file: results.txt
+[2025-08-30 14:57:48] INFO: Successfully wrote results to results.txt
+[2025-08-30 14:57:49] INFO: Grade management process completed successfully
+[2025-08-30 14:59:13] INFO: Starting student grade management system
+[2025-08-30 14:59:13] INFO: Grade management system initialized
+[2025-08-30 14:59:13] INFO: Reading from file: students.csv
+[2025-08-30 14:59:13] INFO: Successfully read 5 students from CSV
+[2025-08-30 14:59:13] INFO: Calculating averages for all students
+[2025-08-30 14:59:13] INFO: Average for John Doe: 86.00
+[2025-08-30 14:59:13] INFO: Average for Jane Smith: 90.50
+[2025-08-30 14:59:13] INFO: Average for Bob Johnson: 80.63
+[2025-08-30 14:59:13] INFO: Average for Alice Brown: 91.50
+[2025-08-30 14:59:13] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 14:59:13] INFO: Writing results to file: results.txt
+[2025-08-30 14:59:13] INFO: Successfully wrote results to results.txt
+[2025-08-30 14:59:13] INFO: Grade management process completed successfully
+[2025-08-30 15:00:38] INFO: Starting student grade management system
+[2025-08-30 15:00:43] INFO: Grade management system initialized
+[2025-08-30 15:00:47] INFO: Reading from file: students.csv
+[2025-08-30 15:05:30] INFO: Starting student grade management system
+[2025-08-30 15:05:30] INFO: Grade management system initialized
+[2025-08-30 15:05:30] INFO: Reading from file: students.csv
+[2025-08-30 15:05:30] INFO: Successfully read 5 students from CSV
+[2025-08-30 15:05:30] INFO: Calculating averages for all students
+[2025-08-30 15:05:30] INFO: Average for John Doe: 86.00
+[2025-08-30 15:05:30] INFO: Average for Jane Smith: 90.50
+[2025-08-30 15:05:30] INFO: Average for Bob Johnson: 80.63
+[2025-08-30 15:05:30] INFO: Average for Alice Brown: 91.50
+[2025-08-30 15:05:30] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 15:05:30] INFO: Writing results to file: results.txt
+[2025-08-30 15:05:30] INFO: Successfully wrote results to results.txt
+[2025-08-30 15:05:30] INFO: Grade management process completed successfully
+[2025-08-30 15:11:57] INFO: Starting student grade management system
+[2025-08-30 15:11:57] INFO: Grade management system initialized
+[2025-08-30 15:11:57] INFO: Cleared student data - ready for fresh read
+[2025-08-30 15:11:57] INFO: Cleared existing student data
+[2025-08-30 15:11:57] INFO: Reading from file: students.csv
+[2025-08-30 15:11:57] INFO: Successfully read 5 students from CSV
+[2025-08-30 15:11:57] INFO: Calculating averages for all students
+[2025-08-30 15:11:57] INFO: Average for John Doe: 86.00
+[2025-08-30 15:11:57] INFO: Average for Jane Smith: 90.50
+[2025-08-30 15:11:57] INFO: Average for Bob Johnson: 80.63
+[2025-08-30 15:11:57] INFO: Average for Alice Brown: 91.50
+[2025-08-30 15:11:57] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 15:11:57] INFO: Writing results to file: results.txt
+[2025-08-30 15:11:57] INFO: Successfully wrote results to results.txt
+[2025-08-30 15:11:57] INFO: Grade management process completed successfully
+[2025-08-30 15:14:23] INFO: Starting student grade management system
+[2025-08-30 15:14:23] INFO: Grade management system initialized
+[2025-08-30 15:14:23] INFO: Cleared student data - ready for fresh read
+[2025-08-30 15:14:23] INFO: Cleared existing student data
+[2025-08-30 15:14:23] INFO: Reading from file: students.csv
+[2025-08-30 15:14:23] INFO: Successfully read 5 students from CSV
+[2025-08-30 15:14:23] INFO: Calculating averages for all students
+[2025-08-30 15:14:23] INFO: Average for John Doe: 86.00
+[2025-08-30 15:14:23] INFO: Average for Jane Smith: 90.50
+[2025-08-30 15:14:23] INFO: Average for Bob Johnson: 80.63
+[2025-08-30 15:14:23] INFO: Average for Alice Brown: 91.50
+[2025-08-30 15:14:23] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 15:14:23] INFO: Writing results to file: results.txt
+[2025-08-30 15:14:23] INFO: Successfully wrote results to results.txt
+[2025-08-30 15:14:23] INFO: Grade management process completed successfully
+[2025-08-30 15:15:40] INFO: Starting student grade management system
+[2025-08-30 15:15:40] INFO: Grade management system initialized
+[2025-08-30 15:15:40] INFO: Cleared student data - ready for fresh read
+[2025-08-30 15:15:40] INFO: Cleared existing student data
+[2025-08-30 15:15:40] INFO: Reading from file: test.csv
+[2025-08-30 15:15:40] ERROR: Error reading CSV file - CSV file not found: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/test.csv
+[2025-08-30 15:15:40] ERROR: Critical error in main method - Cannot read file: CSV file not found: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/test.csv
+[2025-08-30 15:16:34] INFO: Starting student grade management system
+[2025-08-30 15:16:34] INFO: Grade management system initialized
+[2025-08-30 15:16:34] INFO: Cleared student data - ready for fresh read
+[2025-08-30 15:16:34] INFO: Cleared existing student data
+[2025-08-30 15:16:34] INFO: Reading from file: test.csv
+[2025-08-30 15:16:34] ERROR: Error reading CSV file - CSV file not found: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/test.csv
+[2025-08-30 15:16:34] ERROR: Critical error in main method - Cannot read file: CSV file not found: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/test.csv
+[2025-08-30 15:17:11] INFO: Starting student grade management system
+[2025-08-30 15:17:11] INFO: Grade management system initialized
+[2025-08-30 15:17:11] INFO: Cleared student data - ready for fresh read
+[2025-08-30 15:17:11] INFO: Cleared existing student data
+[2025-08-30 15:17:11] INFO: Reading from file: test.csv
+[2025-08-30 15:17:11] ERROR: Error reading CSV file - CSV file not found: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/test.csv
+[2025-08-30 15:17:11] ERROR: Critical error in main method - Cannot read file: CSV file not found: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/test.csv
+[2025-08-30 15:18:22] INFO: Starting student grade management system
+[2025-08-30 15:18:22] INFO: Grade management system initialized
+[2025-08-30 15:18:22] INFO: Cleared student data - ready for fresh read
+[2025-08-30 15:18:22] INFO: Attempting to read from file: students.csv
+[2025-08-30 15:18:22] INFO: File object created: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 15:18:22] INFO: Reading file content...
+[2025-08-30 15:18:22] INFO: File size: 230 bytes
+[2025-08-30 15:18:22] INFO: First line: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 15:18:22] INFO: Processing line 2: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 15:18:22] INFO: Skipping header line
+[2025-08-30 15:18:22] INFO: Processing line 3: S001,Nem Sothea,85.5,92.0,78.5,88.0
+[2025-08-30 15:18:22] INFO: Successfully processed student: S001
+[2025-08-30 15:18:22] INFO: Processing line 4: S002,Jane Smith,91.0,89.5,94.0,87.5
+[2025-08-30 15:18:22] INFO: Successfully processed student: S002
+[2025-08-30 15:18:22] INFO: Processing line 5: S003,Bob Johnson,76.0,82.5,79.0,85.0
+[2025-08-30 15:18:22] INFO: Successfully processed student: S003
+[2025-08-30 15:18:22] INFO: Processing line 6: S004,Alice Brown,88.0,92.5,95.0,90.5
+[2025-08-30 15:18:22] INFO: Successfully processed student: S004
+[2025-08-30 15:18:22] INFO: Processing line 7: S005,Charlie Wilson,65.0,72.5,68.0,70.0
+[2025-08-30 15:18:22] INFO: Successfully processed student: S005
+[2025-08-30 15:18:22] INFO: Successfully read 5 student records
+[2025-08-30 15:18:22] INFO: Calculating averages for all students
+[2025-08-30 15:18:22] INFO: Average for Nem Sothea: 86.00
+[2025-08-30 15:18:22] INFO: Average for Jane Smith: 90.50
+[2025-08-30 15:18:22] INFO: Average for Bob Johnson: 80.63
+[2025-08-30 15:18:22] INFO: Average for Alice Brown: 91.50
+[2025-08-30 15:18:22] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 15:18:22] INFO: Writing results to file: results.txt
+[2025-08-30 15:18:22] INFO: Successfully wrote results to results.txt
+[2025-08-30 15:18:22] INFO: Grade management process completed successfully
+[2025-08-30 15:19:33] INFO: Starting student grade management system
+[2025-08-30 15:19:33] INFO: Grade management system initialized
+[2025-08-30 15:19:33] INFO: Cleared student data - ready for fresh read
+[2025-08-30 15:19:33] INFO: Attempting to read from file: students.csv
+[2025-08-30 15:19:33] INFO: File object created: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/students.csv
+[2025-08-30 15:19:33] INFO: Reading file content...
+[2025-08-30 15:19:33] INFO: File size: 229 bytes
+[2025-08-30 15:19:33] INFO: First line: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 15:19:33] INFO: Processing line 2: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 15:19:33] INFO: Skipping header line
+[2025-08-30 15:19:33] INFO: Processing line 3: S001,Nem Sothea,85.5,92.0,78.5,88.0
+[2025-08-30 15:19:33] INFO: Successfully processed student: S001
+[2025-08-30 15:19:33] INFO: Processing line 4: S002,Sun Malen,91.0,89.5,94.0,87.5
+[2025-08-30 15:19:33] INFO: Successfully processed student: S002
+[2025-08-30 15:19:33] INFO: Processing line 5: S003,Bob Johnson,76.0,82.5,79.0,85.0
+[2025-08-30 15:19:33] INFO: Successfully processed student: S003
+[2025-08-30 15:19:33] INFO: Processing line 6: S004,Alice Brown,88.0,92.5,95.0,90.5
+[2025-08-30 15:19:33] INFO: Successfully processed student: S004
+[2025-08-30 15:19:33] INFO: Processing line 7: S005,Charlie Wilson,65.0,72.5,68.0,70.0
+[2025-08-30 15:19:33] INFO: Successfully processed student: S005
+[2025-08-30 15:19:33] INFO: Successfully read 5 student records
+[2025-08-30 15:19:33] INFO: Calculating averages for all students
+[2025-08-30 15:19:33] INFO: Average for Nem Sothea: 86.00
+[2025-08-30 15:19:33] INFO: Average for Sun Malen: 90.50
+[2025-08-30 15:19:33] INFO: Average for Bob Johnson: 80.63
+[2025-08-30 15:19:33] INFO: Average for Alice Brown: 91.50
+[2025-08-30 15:19:33] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 15:19:33] INFO: Writing results to file: results.txt
+[2025-08-30 15:19:33] INFO: Successfully wrote results to results.txt
+[2025-08-30 15:19:33] INFO: Grade management process completed successfully
+[2025-08-30 15:23:47] INFO: Starting student grade management system
+[2025-08-30 15:23:47] INFO: Grade management system initialized
+[2025-08-30 15:23:47] INFO: Cleared student data - ready for fresh read
+[2025-08-30 15:23:47] INFO: Attempting to read from file: src/main/java/com/example/demo/grademanagementsystem/students.csv
+[2025-08-30 15:23:47] INFO: File object created: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/src/main/java/com/example/demo/grademanagementsystem/students.csv
+[2025-08-30 15:23:47] INFO: Reading file content...
+[2025-08-30 15:23:47] INFO: File size: 282 bytes
+[2025-08-30 15:23:47] INFO: First line: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 15:23:47] INFO: Processing line 2: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 15:23:47] INFO: Skipping header line
+[2025-08-30 15:23:47] INFO: Processing line 3: S001,Nem Sothea,85.5,92.0,78.5,88.0
+[2025-08-30 15:23:47] INFO: Successfully processed student: S001
+[2025-08-30 15:23:47] INFO: Processing line 4: S002,Sun Malen,91.0,89.5,94.0,87.5
+[2025-08-30 15:23:47] INFO: Successfully processed student: S002
+[2025-08-30 15:23:47] INFO: Processing line 5: S003,Bob Johnson,76.0,82.5,79.0,85.0
+[2025-08-30 15:23:47] INFO: Successfully processed student: S003
+[2025-08-30 15:23:47] INFO: Processing line 6: S004,Alice Brown,88.0,92.5,95.0,90.5
+[2025-08-30 15:23:47] INFO: Successfully processed student: S004
+[2025-08-30 15:23:47] INFO: Processing line 7: S005,Charlie Wilson,65.0,72.5,68.0,70.0
+[2025-08-30 15:23:47] INFO: Successfully processed student: S005
+[2025-08-30 15:23:47] INFO: Processing line 8: scr/main/java/com/example/demo/grademanagementsystem/
+[2025-08-30 15:23:47] WARNING: Invalid data format at line 8
+[2025-08-30 15:23:47] INFO: Successfully read 5 student records
+[2025-08-30 15:23:47] INFO: Calculating averages for all students
+[2025-08-30 15:23:47] INFO: Average for Nem Sothea: 86.00
+[2025-08-30 15:23:47] INFO: Average for Sun Malen: 90.50
+[2025-08-30 15:23:47] INFO: Average for Bob Johnson: 80.63
+[2025-08-30 15:23:47] INFO: Average for Alice Brown: 91.50
+[2025-08-30 15:23:47] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 15:23:47] INFO: Writing results to file: results.txt
+[2025-08-30 15:23:47] INFO: Successfully wrote results to results.txt
+[2025-08-30 15:23:47] INFO: Grade management process completed successfully
+[2025-08-30 15:28:52] INFO: Starting student grade management system
+[2025-08-30 15:28:52] INFO: Grade management system initialized
+[2025-08-30 15:28:52] INFO: Cleared student data - ready for fresh read
+[2025-08-30 15:28:52] INFO: Attempting to read from file: src/main/java/com/example/demo/grademanagementsystem/students.csv
+[2025-08-30 15:28:52] INFO: File object created: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/src/main/java/com/example/demo/grademanagementsystem/students.csv
+[2025-08-30 15:28:52] INFO: Reading file content...
+[2025-08-30 15:28:52] INFO: File size: 279 bytes
+[2025-08-30 15:28:52] INFO: First line: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 15:28:52] INFO: Processing line 2: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 15:28:52] INFO: Skipping header line
+[2025-08-30 15:28:52] INFO: Processing line 3: S001,Nem Sothea,85.5,92.0,78.5,88.0
+[2025-08-30 15:28:52] INFO: Successfully processed student: S001
+[2025-08-30 15:28:52] INFO: Processing line 4: S002,Sun Malen,91.0,89.5,94.0,87.5
+[2025-08-30 15:28:52] INFO: Successfully processed student: S002
+[2025-08-30 15:28:52] INFO: Processing line 5: S003,Sreynuth,76.0,82.5,79.0,85.0
+[2025-08-30 15:28:52] INFO: Successfully processed student: S003
+[2025-08-30 15:28:52] INFO: Processing line 6: S004,Alice Brown,88.0,92.5,95.0,90.5
+[2025-08-30 15:28:52] INFO: Successfully processed student: S004
+[2025-08-30 15:28:52] INFO: Processing line 7: S005,Charlie Wilson,65.0,72.5,68.0,70.0
+[2025-08-30 15:28:52] INFO: Successfully processed student: S005
+[2025-08-30 15:28:52] INFO: Processing line 8: scr/main/java/com/example/demo/grademanagementsystem/
+[2025-08-30 15:28:52] WARNING: Invalid data format at line 8
+[2025-08-30 15:28:52] INFO: Successfully read 5 student records
+[2025-08-30 15:28:52] INFO: Calculating averages for all students
+[2025-08-30 15:28:52] INFO: Average for Nem Sothea: 86.00
+[2025-08-30 15:28:52] INFO: Average for Sun Malen: 90.50
+[2025-08-30 15:28:52] INFO: Average for Sreynuth: 80.63
+[2025-08-30 15:28:52] INFO: Average for Alice Brown: 91.50
+[2025-08-30 15:28:52] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 15:28:52] INFO: Writing results to file: src/main/java/com/example/demo/grademanagementsystem/results.txt
+[2025-08-30 15:28:52] INFO: Successfully wrote results to src/main/java/com/example/demo/grademanagementsystem/results.txt
+[2025-08-30 15:28:52] INFO: Grade management process completed successfully

@@ -1,0 +1,15 @@
+Student Grade Results
+=====================
+Generated on: 2025-08-30 15:28:52
+
+Student ID      Name                 Grades                         Average   
+---------------------------------------------------------------------------
+S001            Nem Sothea           [85.5, 92.0, 78.5, 88.0]       86.00     
+S002            Sun Malen            [91.0, 89.5, 94.0, 87.5]       90.50     
+S003            Sreynuth             [76.0, 82.5, 79.0, 85.0]       80.63     
+S004            Alice Brown          [88.0, 92.5, 95.0, 90.5]       91.50     
+S005            Charlie Wilson       [65.0, 72.5, 68.0, 70.0]       68.88     
+
+Summary:
+Total students: 5
+Overall average: 83.50
