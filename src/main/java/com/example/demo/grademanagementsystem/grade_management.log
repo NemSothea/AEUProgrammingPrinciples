@@ -1,0 +1,32 @@
+[2025-08-30 15:39:14] INFO: Starting student grade management system
+[2025-08-30 15:39:14] INFO: Grade management system initialized
+[2025-08-30 15:39:14] INFO: Cleared student data - ready for fresh read
+[2025-08-30 15:39:14] INFO: Attempting to read from file: src/main/java/com/example/demo/grademanagementsystem/students.csv
+[2025-08-30 15:39:14] INFO: File object created: /Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming Principles/demo/src/main/java/com/example/demo/grademanagementsystem/students.csv
+[2025-08-30 15:39:14] INFO: Reading file content...
+[2025-08-30 15:39:14] INFO: File size: 279 bytes
+[2025-08-30 15:39:14] INFO: First line: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 15:39:14] INFO: Processing line 2: student_id,name,grade1,grade2,grade3,grade4
+[2025-08-30 15:39:14] INFO: Skipping header line
+[2025-08-30 15:39:14] INFO: Processing line 3: S001,Nem Sothea,85.5,92.0,78.5,88.0
+[2025-08-30 15:39:14] INFO: Successfully processed student: S001
+[2025-08-30 15:39:14] INFO: Processing line 4: S002,Sun Malen,91.0,89.5,94.0,87.5
+[2025-08-30 15:39:14] INFO: Successfully processed student: S002
+[2025-08-30 15:39:14] INFO: Processing line 5: S003,Sreynuth,76.0,82.5,79.0,85.0
+[2025-08-30 15:39:14] INFO: Successfully processed student: S003
+[2025-08-30 15:39:14] INFO: Processing line 6: S004,Alice Brown,88.0,92.5,95.0,90.5
+[2025-08-30 15:39:14] INFO: Successfully processed student: S004
+[2025-08-30 15:39:14] INFO: Processing line 7: S005,Charlie Wilson,65.0,72.5,68.0,70.0
+[2025-08-30 15:39:14] INFO: Successfully processed student: S005
+[2025-08-30 15:39:14] INFO: Processing line 8: scr/main/java/com/example/demo/grademanagementsystem/
+[2025-08-30 15:39:14] WARNING: Invalid data format at line 8
+[2025-08-30 15:39:14] INFO: Successfully read 5 student records
+[2025-08-30 15:39:14] INFO: Calculating averages for all students
+[2025-08-30 15:39:14] INFO: Average for Nem Sothea: 86.00
+[2025-08-30 15:39:14] INFO: Average for Sun Malen: 90.50
+[2025-08-30 15:39:14] INFO: Average for Sreynuth: 80.63
+[2025-08-30 15:39:14] INFO: Average for Alice Brown: 91.50
+[2025-08-30 15:39:14] INFO: Average for Charlie Wilson: 68.88
+[2025-08-30 15:39:14] INFO: Writing results to file: src/main/java/com/example/demo/grademanagementsystem/results.txt
+[2025-08-30 15:39:14] INFO: Successfully wrote results to src/main/java/com/example/demo/grademanagementsystem/results.txt
+[2025-08-30 15:39:14] INFO: Grade management process completed successfully

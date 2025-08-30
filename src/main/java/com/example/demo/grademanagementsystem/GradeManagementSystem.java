@@ -138,99 +138,77 @@ class GradeManagementSystem {
             throw new RuntimeException("Unexpected error: " + e.getMessage());
         }
     }
+
     public void readTestGradesFromCSV(String filename) {
-    try {
-        students.clear();
-        logger.logInfo("Cleared existing student data");
-        logger.logInfo("Reading from file: " + filename);
-        
-        File csvFile = new File(filename);
-        
-        // Check if file exists
-        if (!csvFile.exists()) {
-            throw new FileNotFoundException("CSV file not found: " + csvFile.getAbsolutePath());
-        }
-
-        // Read the file
-        List<Student> tempStudents = new ArrayList<>();
-        int lineNumber = 0;
-
-        try (BufferedReader reader = new BufferedReader(new FileReader(csvFile))) {
-            String line;
-            boolean isHeaderProcessed = false;
-
-            while ((line = reader.readLine()) != null) {
-                lineNumber++;
-                line = line.trim();
-
-                if (line.isEmpty()) continue;
-
-                String[] values = line.split(",");
-
-                // Skip header line (first line)
-                if (!isHeaderProcessed) {
-                    isHeaderProcessed = true;
-                    continue;
-                }
-
-                // Process student data
-                if (values.length >= 3) {
-                    String studentId = values[0].trim();
-                    String name = values[1].trim();
-                    List<Double> grades = new ArrayList<>();
-
-                    for (int i = 2; i < values.length; i++) {
-                        try {
-                            double grade = Double.parseDouble(values[i].trim());
-                            grades.add(grade);
-                        } catch (NumberFormatException e) {
-                            logger.logWarning("Invalid grade format at line " + lineNumber);
-                        }
-                    }
-                    
-
-                    Student student = new Student(studentId, name, grades);
-                    tempStudents.add(student);
-                }
-            }
-        }
-
-        students = tempStudents;
-        logger.logInfo("Successfully read " + students.size() + " students from CSV");
-
-    } catch (IOException e) {
-        logger.logError("Error reading CSV file", e);
-        throw new RuntimeException("Cannot read file: " + e.getMessage());
-    }
-}
-
-    public void createSampleCSV(String filename) {
         try {
-            logger.logInfo("Creating sample CSV file: " + filename);
+            students.clear();
+            logger.logInfo("Cleared existing student data");
+            logger.logInfo("Reading from file: " + filename);
 
-            try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
-                writer.println("student_id,name,grade1,grade2,grade3,grade4");
-                writer.println("S001,John Doe,85.5,92.0,78.5,88.0");
-                writer.println("S002,Jane Smith,91.0,89.5,94.0,87.5");
-                writer.println("S003,Bob Johnson,76.0,82.5,79.0,85.0");
-                writer.println("S004,Alice Brown,88.0,92.5,95.0,90.5");
-                writer.println("S005,Charlie Wilson,65.0,72.5,68.0,70.0");
+            File csvFile = new File(filename);
 
-                // Flush the writer to ensure data is written
-                writer.flush();
+            // Check if file exists
+            if (!csvFile.exists()) {
+                throw new FileNotFoundException("CSV file not found: " + csvFile.getAbsolutePath());
             }
 
-            logger.logInfo("Sample CSV file created successfully");
+            // Read the file
+            List<Student> tempStudents = new ArrayList<>();
+            int lineNumber = 0;
+
+            try (BufferedReader reader = new BufferedReader(new FileReader(csvFile))) {
+                String line;
+                boolean isHeaderProcessed = false;
+
+                while ((line = reader.readLine()) != null) {
+                    lineNumber++;
+                    line = line.trim();
+
+                    if (line.isEmpty())
+                        continue;
+
+                    String[] values = line.split(",");
+
+                    // Skip header line (first line)
+                    if (!isHeaderProcessed) {
+                        isHeaderProcessed = true;
+                        continue;
+                    }
+
+                    // Process student data
+                    if (values.length >= 3) {
+                        String studentId = values[0].trim();
+                        String name = values[1].trim();
+                        List<Double> grades = new ArrayList<>();
+
+                        for (int i = 2; i < values.length; i++) {
+                            try {
+                                double grade = Double.parseDouble(values[i].trim());
+                                grades.add(grade);
+                            } catch (NumberFormatException e) {
+                                logger.logWarning("Invalid grade format at line " + lineNumber);
+                            }
+                        }
+
+                        Student student = new Student(studentId, name, grades);
+                        tempStudents.add(student);
+                    }
+                }
+            }
+
+            students = tempStudents;
+            logger.logInfo("Successfully read " + students.size() + " students from CSV");
 
         } catch (IOException e) {
-            logger.logError("Failed to create sample CSV file", e);
-            throw new RuntimeException("Failed to create CSV file: " + e.getMessage());
+            logger.logError("Error reading CSV file", e);
+            throw new RuntimeException("Cannot read file: " + e.getMessage());
         }
     }
+
     public void clearStudents() {
-    students.clear();
-    logger.logInfo("Cleared student data - ready for fresh read");
-}
+        students.clear();
+        logger.logInfo("Cleared student data - ready for fresh read");
+    }
 
     public void calculateAverages() {
         logger.logInfo("Calculating averages for all students");

@@ -12,7 +12,7 @@ class CustomLogger {
     private final String logFile;
     
     private CustomLogger() {
-        this.logFile = "grade_management.log";
+        this.logFile = "src/main/java/com/example/demo/grademanagementsystem/grade_management.log";
     }
     
     public static CustomLogger getInstance() {
