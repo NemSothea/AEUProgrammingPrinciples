@@ -32,6 +32,15 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 - Create 3 product objects and test all methods
 - Focus: Apply encapsulation and observe how it improves data protection
 
+## -> 30-08-2025: Lab Activity 
+### Create a Student Grade Management System
+Build a robust student grade management system
+- Read student grades from csv file (student.csv)
+- Calculate average grade for each student
+- write results to output file(result.txt)
+- handle all possible exceptions gracefully
+- Create log file for all operations
+
 ## 1. Stage your changes (select files to commit)
 `git add Product.java ProductTest.java` or `git add . `
 
@@ -41,7 +50,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## 3. Commit your changes to local history with a message
 `git status`
 ## 4. Push your local commits to GitHub
-`git push origin main`
+`git push origin develop`
 
 ## Dependency Management
 
