@@ -5,25 +5,25 @@ import java.util.List;
 class Student {
     private String studentId;
     private String name;
-    private List<Double> grades;
+    private List<Double> scores;
     private double averageGrade;
 
     public Student(String studentId, String name, List<Double> grades) {
         this.studentId = studentId;
         this.name = name;
-        this.grades = grades;
+        this.scores = grades;
         this.averageGrade = calculateAverage();
     }
 
     private double calculateAverage() {
-        if (grades == null || grades.isEmpty()) {
+        if (scores == null || scores.isEmpty()) {
             return 0.0;
         }
         double sum = 0.0;
-        for (Double grade : grades) {
+        for (Double grade : scores) {
             sum += grade;
         }
-        return sum / grades.size();
+        return sum / scores.size();
     }
 
     // Getters
@@ -36,7 +36,7 @@ class Student {
     }
 
     public List<Double> getGrades() {
-        return grades;
+        return scores;
     }
 
     public double getAverageGrade() {
@@ -45,7 +45,7 @@ class Student {
 
     @Override
     public String toString() {
-        return String.format("ID: %s, Name: %s, Grades: %s, Average: %.2f",
-                studentId, name, grades, averageGrade);
+        return String.format("ID: %s, Name: %s, Scores: %s, Average: %.2f",
+                studentId, name, scores, averageGrade);
     }
 }

@@ -12,7 +12,7 @@
 - Reflection: How do principles like DRY and clarity improve your design?
  */
 
-package com.example.demo.wordFrequencycounter;
+package com.example.demo.wordfrequencycounter;
 
 import java.io.IOException;
 import java.io.PrintStream;
@@ -72,7 +72,7 @@ public class WordFrequencyCounterKhmer {
             displayResults(wordFrequencies);
             scanner.close();
         } catch (Exception e) {
-            // TODO: handle exception
+            
 
             System.err.println("Initialization error: " + e.getMessage());
         }

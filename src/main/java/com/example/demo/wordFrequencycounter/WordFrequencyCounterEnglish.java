@@ -12,7 +12,7 @@
 - Reflection: How do principles like DRY and clarity improve your design?
  */
 
-package com.example.demo.wordFrequencycounter;
+package com.example.demo.wordfrequencycounter;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -26,85 +26,85 @@ import java.util.stream.Stream;
 public class WordFrequencyCounterEnglish {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Word Frequency Counter");
+            System.out.println("1. Enter text manually");
+            System.out.println("2. Read from a text file");
+            System.out.print("Choose an option (1 or 2): ");
 
-        System.out.println("Word Frequency Counter");
-        System.out.println("1. Enter text manually");
-        System.out.println("2. Read from a text file");
-        System.out.print("Choose an option (1 or 2): ");
+            int choice = scanner.nextInt();
+            scanner.nextLine(); // consume newline
 
-        int choice = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+            String text = "";
+            // /Users/sothea007/Desktop/AEU\'s\ Master\ Program/AEU\ MSIT\ Programming\
+            // Principles/App/src/test01.txt
+            switch (choice) {
+                case 1:
+                    System.out.println("Enter your text (press Enter twice to finish):");
+                    StringBuilder inputText = new StringBuilder();
+                    String line;
+                    while (!(line = scanner.nextLine()).isEmpty()) {
+                        inputText.append(line).append("\n");
+                    }
+                    text = inputText.toString();
+                    break;
+                case 2:
+                    // "/Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming
+                    // Principles/App.java/'/Users/sothea007/Desktop/AEU\'s Master Program/AEU MSIT
+                    // Programming Principles/App.java/src/test01.txt"
+                    System.out.print("Enter file path: ");
+                    String filePath = scanner.nextLine().trim();
 
-        String text = "";
-        // /Users/sothea007/Desktop/AEU\'s\ Master\ Program/AEU\ MSIT\ Programming\
-        // Principles/App/src/test01.txt
-        switch (choice) {
-            case 1:
-                System.out.println("Enter your text (press Enter twice to finish):");
-                StringBuilder inputText = new StringBuilder();
-                String line;
-                while (!(line = scanner.nextLine()).isEmpty()) {
-                    inputText.append(line).append("\n");
-                }
-                text = inputText.toString();
-                break;
-            case 2:
-                // "/Users/sothea007/Desktop/AEU's Master Program/AEU MSIT Programming
-                // Principles/App.java/'/Users/sothea007/Desktop/AEU\'s Master Program/AEU MSIT
-                // Programming Principles/App.java/src/test01.txt"
-                System.out.print("Enter file path: ");
-                String filePath = scanner.nextLine().trim();
-
-                // Remove any surrounding quotes
-                if (filePath.startsWith("'") && filePath.endsWith("'")) {
-                    filePath = filePath.substring(1, filePath.length() - 1);
-                }
-                if (filePath.startsWith("\"") && filePath.endsWith("\"")) {
-                    filePath = filePath.substring(1, filePath.length() - 1);
-                }
-
-                // Remove any escape characters
-                filePath = filePath.replace("\\", "");
-
-                try {
-                    Path path = Paths.get(filePath).toAbsolutePath().normalize();
-                    System.out.println("Attempting to read: " + path);
-
-                    if (!Files.exists(path)) {
-                        System.err.println("\nERROR: File not found at:");
-                        System.err.println(path);
-                        System.err.println("\nPlease verify the path is correct.");
-                        System.err.println("Try dragging the file into Terminal.");
-                        return;
+                    // Remove any surrounding quotes
+                    if (filePath.startsWith("'") && filePath.endsWith("'")) {
+                        filePath = filePath.substring(1, filePath.length() - 1);
+                    }
+                    if (filePath.startsWith("\"") && filePath.endsWith("\"")) {
+                        filePath = filePath.substring(1, filePath.length() - 1);
                     }
 
-                    text = new String(Files.readAllBytes(path), StandardCharsets.UTF_8);
-                } catch (IOException e) {
-                    System.err.println("Error reading file: " + e.getMessage());
+                    // Remove any escape characters
+                    filePath = filePath.replace("\\", "");
+
+                    try {
+                        Path path = Paths.get(filePath).toAbsolutePath().normalize();
+                        System.out.println("Attempting to read: " + path);
+
+                        if (!Files.exists(path)) {
+                            System.err.println("\nERROR: File not found at:");
+                            System.err.println(path);
+                            System.err.println("\nPlease verify the path is correct.");
+                            System.err.println("Try dragging the file into Terminal.");
+                            return;
+                        }
+
+                        text = new String(Files.readAllBytes(path), StandardCharsets.UTF_8);
+                    } catch (IOException e) {
+                        System.err.println("Error reading file: " + e.getMessage());
+                        return;
+                    }
+                    break;
+                default:
+                    System.out.println("Invalid option");
                     return;
-                }
-                break;
-            default:
-                System.out.println("Invalid option");
-                return;
+            }
+
+            Map<String, Integer> frequencyMap = countWordFrequencies(text);
+
+            // Display results in different formats
+            System.out.println("\nResults:");
+            System.out.println("\n1. Raw frequency count (unsorted):");
+            displayRawFrequency(frequencyMap);
+
+            System.out.println("\n2. Sorted by word (alphabetical):");
+            displaySortedByWord(frequencyMap);
+
+            System.out.println("\n3. Sorted by frequency (descending):");
+            displaySortedByFrequency(frequencyMap);
+
+            System.out.println("\n4. Filtered (words appearing more than once):");
+            displayFilteredResults(frequencyMap, 1);
         }
-
-        Map<String, Integer> frequencyMap = countWordFrequencies(text);
-
-        // Display results in different formats
-        System.out.println("\nResults:");
-        System.out.println("\n1. Raw frequency count (unsorted):");
-        displayRawFrequency(frequencyMap);
-
-        System.out.println("\n2. Sorted by word (alphabetical):");
-        displaySortedByWord(frequencyMap);
-
-        System.out.println("\n3. Sorted by frequency (descending):");
-        displaySortedByFrequency(frequencyMap);
-
-        System.out.println("\n4. Filtered (words appearing more than once):");
-        displayFilteredResults(frequencyMap, 1);
     }
 
     private static Map<String, Integer> countWordFrequencies(String text) {

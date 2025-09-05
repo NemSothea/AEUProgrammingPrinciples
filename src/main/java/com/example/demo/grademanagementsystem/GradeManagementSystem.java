@@ -32,7 +32,6 @@ class GradeManagementSystem {
             // CREATE FILE IF IT DOESN'T EXIST
             if (!csvFile.exists()) {
                 logger.logInfo("File not found. Creating sample CSV file...");
-                // createSampleCSV(filename);
 
                 // Reinitialize the file object after creation
                 csvFile = new File(filename);
@@ -230,7 +229,7 @@ class GradeManagementSystem {
                 writer.println();
 
                 writer.printf("%-15s %-20s %-30s %-10s%n",
-                        "Student ID", "Name", "Grades", "Average");
+                        "Student ID", "Name", "Scores", "Average");
                 writer.println("-".repeat(75));
 
                 for (Student student : students) {
