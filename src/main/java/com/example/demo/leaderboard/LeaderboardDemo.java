@@ -1,3 +1,33 @@
+/***
+ * ## Key Features and Analysis
+
+### Time Complexity Analysis:
+- **Add Player**: O(1) average, O(n) worst case when resizing
+- **Update Score**: O(1) + O(n log n) when sorting needed
+- **Remove Player**: O(n) for list removal
+- **Linear Search**: O(n)
+- **Binary Search Range**: O(log n + k) where k is result size
+- **Sorting**: O(n log n) for all algorithms
+
+### Memory Usage:
+- **ArrayList**: O(n) for player storage
+- **HashMap**: O(n) for quick lookups
+- **Overall**: O(n) space complexity
+
+### Sorting Algorithm Comparison:
+- **Collections.sort**: Optimized TimSort, stable and efficient
+- **Merge Sort**: Consistent O(n log n), stable but uses extra space
+- **Quick Sort**: O(n log n) average, O(n²) worst case, in-place
+
+### Performance Optimizations:
+1. **Lazy Sorting**: Only sort when necessary
+2. **HashMap Lookup**: O(1) player access by name
+3. **Binary Search**: Efficient range queries
+4. **Top N Optimization**: O(1) after sorting
+
+This system provides a comprehensive leaderboard management solution with performance monitoring and multiple sorting algorithm implementations.
+
+*/
 package com.example.demo.leaderboard;
 
 import com.example.demo.leaderboard.core.GameLeaderboard;
