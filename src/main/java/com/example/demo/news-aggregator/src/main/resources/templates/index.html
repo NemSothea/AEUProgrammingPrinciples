@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>News Aggregator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 30px; }
+        .article { border: 1px solid #ddd; padding: 20px; margin: 15px 0; border-radius: 8px; background: white; }
+        .article h3 { margin-top: 0; color: #2c3e50; }
+        .article img { max-width: 200px; float: left; margin-right: 15px; margin-bottom: 10px; border-radius: 5px; }
+        .source { color: #7f8c8d; font-size: 0.9em; margin-bottom: 10px; }
+        .categories { margin: 20px 0; text-align: center; }
+        .categories a { margin: 0 10px; padding: 8px 16px; text-decoration: none; background: #3498db; color: white; border-radius: 20px; display: inline-block; }
+        .categories a:hover { background: #2980b9; }
+        .healthy { color: #27ae60; margin: 15px 0; padding: 10px; background: #d5f4e6; border-radius: 5px; }
+        .stats { color: #7f8c8d; margin: 10px 0; }
+        .clear { clear: both; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📰 News Aggregator</h1>
+            <p>Your one-stop source for latest news from multiple providers</p>
+        </div>
+        
+        <div class="categories">
+            <strong>Categories:</strong>
+            <a href="/">All</a>
+            <a href="/?category=technology">Technology</a>
+            <a href="/?category=business">Business</a>
+            <a href="/?category=sports">Sports</a>
+            <a href="/?category=health">Health</a>
+            <a href="/?category=science">Science</a>
+        </div>
+        
+        <div class="healthy" th:if="${not #lists.isEmpty(healthySources)}">
+            <strong>✅ Connected Sources:</strong>
+            <span th:text="${healthySources}"></span>
+        </div>
+        
+        <div class="stats">
+            <strong>📊 Results:</strong>
+            <span th:text="${articleCount} + ' articles found'"></span>
+            <span th:if="${category != null}" th:text="' in ' + ${category}"></span>
+        </div>
+        
+        <div th:if="${articles.empty}">
+            <div style="text-align: center; padding: 40px; color: #7f8c8d;">
+                <h3>No articles found</h3>
+                <p>This could be because:</p>
+                <ul style="text-align: left; display: inline-block;">
+                    <li>API keys are not configured</li>
+                    <li>News sources are temporarily unavailable</li>
+                    <li>No news available for the selected category</li>
+                </ul>
+                <p>Try a different category or check the console for error messages.</p>
+            </div>
+        </div>
+        
+        <div th:each="article : ${articles}" class="article">
+            <div th:if="${article.imageUrl != null}">
+                <img th:src="${article.imageUrl}" alt="Article image">
+            </div>
+            <h3><a th:href="${article.url}" th:text="${article.title}" target="_blank"></a></h3>
+            <div class="source">
+                <strong>Source:</strong> <span th:text="${article.sourceName}"></span> | 
+                <strong>Author:</strong> <span th:text="${article.author}"></span> | 
+                <strong>Published:</strong> <span th:text="${#temporals.format(article.publishedAt, 'yyyy-MM-dd HH:mm')}"></span>
+                <span th:if="${article.category != null}" th:text="' | Category: ' + ${article.category}"></span>
+            </div>
+            <p th:text="${article.description}"></p>
+            <div class="clear"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: github-social-feed
+  
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Ov23li7LF4qXzsePAWZh
+            client-secret: d7d315388f1dfe13366d7ee557cdded0bb95fe8ft
+            scope: user:email,read:user
+
+github:
+  owner: octocat
+  repo: Hello-World
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.example: DEBUG
+    org.springframework.web: DEBUG
+    org.springframework.security: DEBUG
+    org.springframework.web.reactive: DEBUG

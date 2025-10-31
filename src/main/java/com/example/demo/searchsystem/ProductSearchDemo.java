@@ -1,4 +1,16 @@
 /**
+Build an intelligent search system that demonstrates multiple 
+algorithms:
+• Requirements:
+– Data Structure: Create a Product class with name, category, price, rating 
+– Search Algorithms: Implement multiple search strategies: 
+• Linear search by name
+• Binary search by price (sorted)
+• Category filtering
+• Rating-based ranking 
+– Sorting Options: Allow sorting by different criteria 
+– Performance Comparison: Measure and compare algorithm performance
+• Focus: Apply DRY, modularity, and performance optimization principles
 
 ## Key Features:
 This intelligent search system demonstrates:

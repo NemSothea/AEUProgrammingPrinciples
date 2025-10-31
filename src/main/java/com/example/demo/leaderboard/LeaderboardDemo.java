@@ -1,4 +1,24 @@
 /***
+ * Exercise: Leaderboard Management System
+• Create a comprehensive leaderboard system for a gaming application
+• Core Requirements:
+– Player Management:
+• Add new players with scores
+• Update existing player scores
+• Remove players from leaderboard 
+• Ranking Algorithms:
+– Sort players by score (descending)
+– Handle tie-breaking (by name alphabetically)
+– Maintain top N players efficiently 
+• Search Functionality: 
+• Find player by name (linear search)
+• Find players within score range (binary search)
+• Search by rank position 
+• Performance Analysis: 
+– Measure time complexity of operations
+– Compare different sorting algorithms
+– Analyze memory usage
+
  * ## Key Features and Analysis
 
 ### Time Complexity Analysis:

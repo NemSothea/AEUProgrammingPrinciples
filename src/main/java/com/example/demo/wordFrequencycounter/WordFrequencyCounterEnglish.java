@@ -12,7 +12,7 @@
 - Reflection: How do principles like DRY and clarity improve your design?
  */
 
-package com.example.demo.wordfrequencycounter;
+package com.example.demo.wordFrequencycounter;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
