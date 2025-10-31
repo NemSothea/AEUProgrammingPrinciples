@@ -175,7 +175,20 @@ You've built a **GitHub commit viewer** that:
 
 After adding the mock client, test:
 ```bash
-curl "http://localhost:8080/api/feed?postsPerSource=2"
+# 1. Test if app is running
+curl http://localhost:8080/test
+
+# 2. Test GitHub direct endpoint
+curl "http://localhost:8080/api/github/posts?limit=2"
+
+# 3. Test health endpoint
+curl "http://localhost:8080/api/health"
+
+# 4. Test aggregated feed (main requirement)
+curl "http://localhost:8080/api/feed?postsPerSource=3"
+
+# 5. Test individual post lookup (this was failing before)
+curl "http://localhost:8080/api/posts/github:abc123"
 ```
 
 You should see **posts from both GitHub AND Twitter** in the same response, sorted by date.
